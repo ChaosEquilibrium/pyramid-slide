@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pyramid</title>
+    <link rel="stylesheet" href="pyramid.css">
+</head>
+
+<body>
+    <form>
+        <label for="brick">Brick symbol:</label>
+        <select id="brick" name="brick">
+            <option value="#">#</option>
+            <option value="@">@</option>
+            <option value="X">X</option>
+            <option value="$">$</option>
+        </select>
+        <label for="hight">How high?</label>
+        <input type="range" id="hight" min="2" max="8">
+        <label for="hight">8</label>
+    </form>
+    <div id="construction"> </div>
+    <script src="pyramid.js"></script>
+</body>
+
+</html>
